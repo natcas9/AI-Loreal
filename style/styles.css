@@ -3,17 +3,14 @@ header {
 }
 
 body {
-  background-color: #3d5a39;
+  background-color: #eae1ce;
   font-family: Helvetica, Arial, sans-serif;
-  font-family: "Dancing Script", cursive;
 }
 
 h1 {
   text-align: center;
-  font-weight: 800;
   font-size: 48px;
   line-height: 1.5;
-  font-family: "Mountains of Christmas", serif;
 }
 
 form {
@@ -26,15 +23,15 @@ footer {
   margin-top: 30px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 a {
-  color: rgb(84, 13, 13);
+  color: rgb(0, 0, 0);
 }
 
 .heading {
-  color: white;
+  color: rgb(0, 0, 0);
   margin: 0;
 }
 
@@ -62,7 +59,7 @@ a {
 
 .submit-button {
   margin-left: 10px;
-  background-color: rgb(202, 16, 16);
+  background-color: rgb(0, 0, 0);
   color: white;
   border: none;
   width: 100px;
@@ -80,7 +77,7 @@ a {
   font-weight: 600;
   padding: 20px;
   line-height: 2;
-  border-left: 3px solid rgb(218, 22, 22);
+  border-left: 3px solid rgb(0, 0, 0);
   box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.08);
 }
 
@@ -104,6 +101,19 @@ a {
 .generating {
   animation: blink-animation 1s steps(5, start) infinite;
 }
+
+.Results {
+  justify-content: center;
+  display: block;
+  margin: auto;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: none;
+  padding: 8px;
+  font-size: 18px;
+  border-radius: 50px;
+}
+
 @keyframes blink-animation {
   to {
     visibility: hidden;
