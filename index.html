@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Mountains+of+Christmas&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <title>🤖 AI-Generator</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <center>
+          <iframe
+            style="border-radius: 12px"
+            src="https://open.spotify.com/embed/track/0bYg9bo50gSsH3LtXe2SQn?utm_source=generator"
+            frameborder="0"
+            allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+            class="spotify"
+          ></iframe>
+        </center>
+        <h1 class="heading">
+          Welcome to the AI Christmas Cookbook generator 🎅🏽
+        </h1>
+      </header>
+      <main>
+        <div class="form-wrapper">
+          <form id="form-generator">
+            <input
+              type="text"
+              placeholder="ho ho ho! I want to make..."
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-instructions"
+            />
+            <button type="submit" class="submit-button">Generate</button>
+          </form>
+          <div class="hint">i.e. cookies, meat, apples</div>
+        </div>
+        <div class="answer hidden" id="reponse-generator">
+          <div>the response will go here</div>
+        </div>
+      </main>
+
+      <footer>
+        This AI project was coded by
+        <a
+          href="https://www.linkedin.com/in/natalia-casar%C3%ADn-s%C3%A1nchez-691107233/"
+          target="_blank"
+          >Natalia Casarín Sánchez </a
+        >and is
+        <a href="https://github.com/natcas9/AI-generator" target="_blank"
+          >open-sourced in Github</a
+        >
+        and hosted in
+        <a href="https://ai-generator-natcas.netlify.app" target="_blank"
+          >Netlify</a
+        >
+      </footer>
+      <img src="img/snowflake.png" alt="snowflake" class="snowflake" />
+    </div>
+    <script src="src/app.js"></script>
+  </body>
+</html>
